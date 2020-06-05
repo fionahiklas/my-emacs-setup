@@ -49,9 +49,12 @@
 (add-to-list 'auto-mode-alist '("\\.go\\'" . go-mode))
 ;; Go mode
 
+;; Include the s.el string library
+(add-to-list 'load-path "~/.emacs.d/lisp/s")
+;;
 
 ;; Dockerfile mode
-(add-to-list 'load-path "~/.emacs.d/lisp/dockerfile-mode/")
+(add-to-list 'load-path "~/.emacs.d/lisp/dockerfile-mode")
 (require 'dockerfile-mode)
 (add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
 ;; Dockerfile mode

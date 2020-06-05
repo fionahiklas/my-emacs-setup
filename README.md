@@ -18,6 +18,10 @@ yet and kind of like to muck around with lisp code anyway :D
 
 [Spotify Dockerfile mode](https://github.com/spotify/dockerfile-mode)
 
+This depends on 
+
+* [emacs-s](https://guix.gnu.org/packages/emacs-s-1.12.0/)
+
 
 ### Markdown-mode
 
