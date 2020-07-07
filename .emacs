@@ -59,6 +59,14 @@
 (add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode))
 ;; Dockerfile mode
 
+;; Terraform mode
+(add-to-list 'load-path "~/.emacs.d/lisp/emacs-hcl-mode")
+(add-to-list 'load-path "~/.emacs.d/lisp/terraform-mode")
+(require 'terraform-mode)
+(add-to-list 'auto-mode-alist '("\\.tf\\'" . terraform-mode))
+;; Terraform mode
+
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
