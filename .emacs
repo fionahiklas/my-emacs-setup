@@ -66,6 +66,13 @@
 (add-to-list 'auto-mode-alist '("\\.tf\\'" . terraform-mode))
 ;; Terraform mode
 
+;; Jenkinsfile mode
+(add-to-list 'load-path "~/.emacs.d/lisp/dash")
+(add-to-list 'load-path "~/.emacs.d/lisp/groovy-mode")
+(add-to-list 'load-path "~/.emacs.d/lisp/jenkinsfile-mode")
+(require 'jenkinsfile-mode)
+;; Jenkinsfile mode
+
 
 
 (custom-set-variables

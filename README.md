@@ -14,6 +14,16 @@ yet and kind of like to muck around with lisp code anyway :D
 
 ## Modes
 
+### Jenkinsfile mode
+
+[Jenkins file mode](https://github.com/john2x/jenkinsfile-mode)
+
+This depends on
+
+* [groovy-mode](https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes)
+* [dash library](https://github.com/magnars/dash.el)
+
+
 ### Docker-file-mode
 
 [Spotify Dockerfile mode](https://github.com/spotify/dockerfile-mode)
@@ -21,6 +31,7 @@ yet and kind of like to muck around with lisp code anyway :D
 This depends on 
 
 * [emacs-s](https://guix.gnu.org/packages/emacs-s-1.12.0/)
+
 
 
 ### Markdown-mode
