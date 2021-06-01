@@ -65,3 +65,8 @@ which ensures that any changes get committed automatically when I hit save.
   (gac-automatically-push-p . 1)))
 ```
 
+### Lua Mode
+
+Mode for [editing lua code](https://github.com/immerrr/lua-mode)
+
+
