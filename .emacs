@@ -81,6 +81,11 @@
 (add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
 ;; Lua mode
 
+;; BATS mode
+(add-to-list 'load-path "~/.emacs.d/lisp/bats-mode")
+(require 'bats-mode)
+;; BATS mode
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

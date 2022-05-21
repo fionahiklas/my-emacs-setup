@@ -12,6 +12,19 @@ Yes, I probably should be using MELPA but I haven't got around to doing that
 yet and kind of like to muck around with lisp code anyway :D
 
 
+## Emacs mini howto
+
+### Reload .emacs after changes
+
+You can use `M-x load-file` and enter `~/.emacs` to reload the file
+as mentioned in this [post][emacs-reload-post]
+
+### Add file variables
+
+Use `M-x add-file-local-variable-prop-line` as per the 
+[documentation][emacs-file-variables]
+
+
 ## Modes
 
 ### Jenkinsfile mode
@@ -33,15 +46,12 @@ This depends on
 * [emacs-s](https://guix.gnu.org/packages/emacs-s-1.12.0/)
 
 
-
 ### Markdown-mode
 
 [Jason Blevins Markdown Mode](https://github.com/jrblevin/markdown-mode)
 
 
-
 ### Autosave mode 
-
 
 [Tom Willemse Git Auto Commit mode](https://github.com/ryuslash/git-auto-commit-mode)
 
@@ -65,8 +75,20 @@ which ensures that any changes get committed automatically when I hit save.
   (gac-automatically-push-p . 1)))
 ```
 
+
 ### Lua Mode
 
 Mode for [editing lua code](https://github.com/immerrr/lua-mode)
 
 
+## BATS Mode
+
+For [BATS][bats-repo] test scripts: 
+[github repo](https://github.com/dougm/bats-mode)
+
+
+
+[emacs-reload-post]: https://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changing-it
+[emacs-file-variables]: https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html
+
+[bats-repo](https://github.com/bats-core/bats-core)
