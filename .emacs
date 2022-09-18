@@ -86,6 +86,11 @@
 (require 'bats-mode)
 ;; BATS mode
 
+;; CMake mode
+(add-to-list 'load-path "~/.emacs.d/lisp/cmake-mode")
+(require 'cmake-mode)
+;; CMake mode
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
