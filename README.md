@@ -1,15 +1,11 @@
+# My Emacs Setup
+
 ## Overview 
 
-I'm collecting various Emacs modes and config and thought having a central 
-place for all this might make sense.
-
-See the `.emacs` file and `.emacs.d` directory for the setup and Lisp code
-for each mode I've added.
-
-Details of there the source is and any interesting config are given below.
-
-Yes, I probably should be using MELPA but I haven't got around to doing that 
-yet and kind of like to muck around with lisp code anyway :D
+__NOTE:__ Originally I was creating a `.emacs.d` directory to hold all of the code for 
+          the various modes.  I've changed the setup to use MELPA instead so the 
+			  only useful code is in the `.emacs` file.  I'm leaving the notes on modes
+			  for now as reference
 
 
 ## Emacs mini howto
@@ -23,6 +19,7 @@ as mentioned in this [post][emacs-reload-post]
 
 Use `M-x add-file-local-variable-prop-line` as per the 
 [documentation][emacs-file-variables]
+
 
 
 ## Modes
@@ -81,14 +78,16 @@ which ensures that any changes get committed automatically when I hit save.
 Mode for [editing lua code](https://github.com/immerrr/lua-mode)
 
 
-## BATS Mode
+### BATS Mode
 
 For [BATS][bats-repo] test scripts: 
 [github repo](https://github.com/dougm/bats-mode)
+
+[bats-repo](https://github.com/bats-core/bats-core)
+
 
 
 
 [emacs-reload-post]: https://stackoverflow.com/questions/2580650/how-can-i-reload-emacs-after-changing-it
 [emacs-file-variables]: https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html
 
-[bats-repo](https://github.com/bats-core/bats-core)
